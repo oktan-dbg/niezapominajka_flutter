@@ -20,7 +20,7 @@ class LocalNotification{
   }) async{
     AndroidNotificationDetails androidNotificationDetails = const AndroidNotificationDetails(
       'you_can_name_it_whatever1', 
-      'chanel_name',
+      'channel_name',
       playSound: true,
       importance: Importance.max,
       priority: Priority.high
